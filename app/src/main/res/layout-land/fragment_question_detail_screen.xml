@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    android:weightSum="100"
+    tools:context=".fragments.QuestionDetailScreenFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/questionNumberTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="70"
+            android:text="@string/question_number_dummy"
+            android:textColor="@color/app_element_bg"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:id="@+id/bookMarkStatusButton"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="20"
+            android:contentDescription="@string/bookmark_status_button_content_description"
+            android:src="@drawable/bookmark_icon"
+            app:tint="@color/app_bg_overlay" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/timerTextViewDetailScreen"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/_00_00"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:text="@string/dummy_question_text"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <RadioGroup
+                android:id="@+id/optionRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/optionButton1"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="@string/option_button_dummy_text"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/optionButton2"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="@string/option_button_dummy_text"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/optionButton3"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="@string/option_button_dummy_text"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/optionButton4"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="@string/option_button_dummy_text"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/selectOptionButton"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/select_option"
+                app:backgroundTint="@null" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/previousButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_background"
+                android:text="@string/previous_text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                app:icon="@drawable/previous_icon" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/nextButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_background"
+                android:text="@string/next_text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                app:icon="@drawable/next_icon"
+                app:iconGravity="end" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submitButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:text="@string/submit_button_text"
+        app:backgroundTint="@null" />
+
+
+</LinearLayout>

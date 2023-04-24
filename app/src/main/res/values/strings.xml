@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="application_name">Quizzy</string>
+    <string name="app_introduction">English quiz Application</string>
+    <string name="quizzy_app">Quizzy App</string>
+    <string name="rules_of_quiz_game">
+        The Rules : \n
+            1. 10 Minutes to solve \n
+            2. 20 Questions of English \n
+            3. MCQ type Questions \n
+            4. Solve in One Go. \n
+    </string>
+    <string name="start_quiz_button_text">Start Quiz</string>
+    <string name="questions_list_text">Questions List</string>
+    <string name="default_time_00_00">00:00</string>
+    <string name="questions_dummy_details">Questions Dummy Details</string>
+    <string name="question_number_dummy">Question 0 :</string>
+    <string name="option_button_dummy_text">Option :</string>
+    <string name="dummy_question_text">Question : \n Hello dummy question is</string>
+    <string name="first_question_list_warning_toast">Can\'t go back It\'s the First Question Sir !</string>
+    <string name="last_question_list_warning_toast">Can\'t go forward It\'s the Last Question Sir !</string>
+    <string name="select_option">select option</string>
+    <string name="your_score_template">You Scored : </string>
+    <string name="time_taken_template">Time Taken : "</string>
+    <string name="alert_title">Alert</string>
+    <string name="alert_message">\"Do you really want to submit the quiz : \"</string>
+    <string name="alert_positive_button">Yes</string>
+    <string name="alert_negative_button">Submit Canceled</string>
+    <string name="hasstarted_prefs_key">hasStarted</string>
+    <string name="bundle_key">bundleKey</string>
+    <string name="position_index_key">position</string>
+    <string name="question_list_fragment_tag">Question List Fragment</string>
+    <string name="shared_prefs_file">MyPrefsFile</string>
+    <string name="previous_text">Previous</string>
+    <string name="next_text">Next</string>
+    <string name="bookmark_status_button_content_description">BookMark Status Button</string>
+    <string name="no_alert_button_message">No</string>
+    <string name="submit_button_text">submit</string>
+    <string name="summary_dummy_text">Summary Screen</string>
+    <string name="scoredummy_text">You Scored : 0/10</string>
+    <string name="time_take_00_00">Time Take : 00:00</string>
+    <string name="share_you_score">Share you Score</string>
+    <string name="exit_quiz">Exit Quiz</string>
+    <string name="restart">Restart</string>
+    <string name="text_plain_type">text/plain</string>
+    <string name="share_subject">\"Here is my Quizzy score : \"</string>
+    <string name="share_via_button">Share Via</string>
+    <string name="score_text">\"Score - \"</string>
+    <string name="score_concatenate_message">\" and in this time \"</string>
+    <string name="_00_00">00:00</string>
+    <string name="submit_button_text_list_fragment">submit</string>
+    <string name="no_negative_text">No</string>
+    <string name="already_answered_text">Already Answered</string>
+    <string name="lock_the_option">Lock The Option</string>
+    <string name="no_option_selected">No option is Selected</string>
+    <string name="this_is_a_sample_rule">This is a Sample Rule</string>
+    <string name="rule_1">Time will be only 10 minutes you have to complete the quiz under this only.</string>
+    <string name="rule_2">Number of question will be 10 only</string>
+    <string name="rule_3">You have to complete the quiz at one go only</string>
+    <string name="rule_4">Once the question is locked you can\'t change the option later.</string>
+    <string name="rule_5">You can share the score to anyone on any app after completing the quiz.</string>
+    <string name="list_fragment_tag">listfragment</string>
+    <string name="setupfragment_tag_text">setupfragment</string>
+    <string name="splash_fragment_tag">splashScreenFragment</string>
+    <string name="details_screen_fragment_tag">DetailScreen</string>
+</resources>
